@@ -1,29 +1,74 @@
 {
   "_README": "ONE config file drives the whole tracker (scraper + dashboard). Edit it by hand, or generate it from your CV using docs/cv-to-config-prompt.md. After editing, commit it and re-run the workflows. All matching is case-insensitive substring on the JOB TITLE unless noted.",
 
-  "profile": {
-      "title": "European Job Tracker",
-  "subtitle": "Sweden · Denmark | Data · Research · Insights",
-  "emoji": "🔎"
-  },
+"profile": {
+"title": "Data & Insights Job Tracker",
+"subtitle": "Sweden · Copenhagen · Europe",
+"emoji": "📊"
+},
 
-  "keywords": {
-    "_comment": "A job TITLE is kept if it contains any of these. Use full words; multi-word phrases match as substrings.",
-    "include": [
-       "consumer insights",
-    "consumer insight",
-    "customer insights",
-    "customer insight",
-    "market research",
-    "insights analyst",
-    "research analyst",
-    "data analyst",
-    "business analyst",
-    "product analyst",
-    "user researcher",
-    "digital marketing",
-    "analyst"
-    ],
+ "keywords": {
+"include": [
+  "data analyst",
+      "junior data analyst",
+      "business data analyst",
+      "business intelligence analyst",
+      "bi analyst",
+      "reporting analyst",
+      "analytics analyst",
+      "research analyst",
+      "quantitative research analyst",
+      "quantitative researcher",
+      "market research analyst",
+      "consumer research analyst",
+      "customer research analyst",
+      "insights analyst",
+      "insight analyst",
+      "consumer insights analyst",
+      "customer insights analyst",
+      "market insights analyst",
+      "commercial insights analyst",
+      "business insights analyst",
+      "research and insights analyst",
+      "consumer and market insights analyst",
+      "customer experience analyst",
+      "cx analyst",
+      "user research analyst",
+      "user researcher",
+      "quantitative user researcher",
+      "market intelligence analyst",
+      "competitive intelligence analyst",
+      "marketing analyst",
+      "marketing analytics analyst",
+      "digital marketing analyst",
+      "campaign analyst",
+      "crm analyst",
+      "customer analytics analyst",
+      "consumer analytics analyst",
+      "product analyst",
+      "product analytics analyst",
+      "web analyst",
+      "digital analyst",
+      "commercial analyst",
+      "business analyst",
+      "junior business analyst",
+      "strategy analyst",
+      "junior strategy analyst",
+      "growth analyst",
+      "performance analyst",
+      "evaluation analyst",
+      "monitoring and evaluation analyst",
+      "statistics analyst",
+      "statistical analyst",
+      "survey analyst",
+      "survey researcher",
+      "social research analyst",
+      "research associate",
+      "insights consultant",
+      "consumer insights consultant",
+      "market research consultant",
+      "analytics consultant"
+],
     "_exclude_comment": "Titles containing any of these are dropped (junior/off-field roles).",
     "exclude": [
       "senior",
@@ -31,7 +76,14 @@
     "principal",
     "director",
     "head of",
-    "manager"
+    "manager",
+      "data engineer",
+"machine learning engineer",
+"data scientist",
+      "financial analyst",
+"investment analyst",
+"credit analyst",
+"risk analyst"
     ],
     "_fuzzy_comment": "Optional fuzzy pre-filter for LinkedIn title matching. When both fuzzy_seniority and fuzzy_domain are non-empty, role_is_relevant() uses these instead of the exact-phrase keywords.include filter. Catches title variants like 'Director, Engineering' when searching for 'Engineering Director'. Leave all three empty to use keyword-only matching.",
     "fuzzy_seniority": [],
@@ -42,77 +94,76 @@
   "search_terms": {
     "_comment": "Queries sent to the job boards' search boxes. Broader than 'keywords' (which then filters the titles).",
     "linkedin": [
-       "consumer insights",
-    "consumer insight",
-    "customer insights",
-    "customer insight",
-    "market research",
-    "insights analyst",
-    "research analyst",
-    "data analyst",
-    "business analyst",
-    "product analyst",
-    "user researcher",
-    "digital marketing",
+"Data Analyst",
+      "Junior Data Analyst",
+      "Insights Analyst",
+      "Consumer Insights Analyst",
+      "Customer Insights Analyst",
+      "Market Research Analyst",
+      "Research Analyst",
+      "Consumer Research",
+      "Customer Analytics Analyst",
+      "Customer Experience Analyst",
+      "User Researcher",
+      "Quantitative User Researcher",
+      "Market Intelligence Analyst",
+      "Marketing Analyst",
+      "Marketing Analytics Analyst",
+      "Product Analyst",
+      "Product Analytics Analyst",
+      "Business Analyst",
+      "Junior Business Analyst",
+      "Commercial Analyst",
+      "Strategy Analyst",
+      "BI Analyst",
+      "Analytics Consultant",
+      "Insights Consultant",
+      "Monitoring Evaluation Analyst",
+      "Survey Researcher",
+      "Quantitative Research",
+      "Social Media Analyst",
+      "Digital Marketing Analyst"
+     
     ],
     "indeed": [
-        "consumer insights",
-    "consumer insight",
-    "customer insights",
-    "customer insight",
-    "market research",
-    "insights analyst",
-    "research analyst",
-    "data analyst",
-    "business analyst",
-    "product analyst",
-    "user researcher",
-    "digital marketing",
-    ],
+     "Data Analyst",
+      "Insights Analyst",
+      "Market Research Analyst",
+      "Consumer Insights",
+      "Research Analyst",
+      "Marketing Analyst",
+      "Product Analyst",
+      "Business Analyst",
+      "Customer Analytics",
+      "User Researcher"    ],
     "glassdoor": [
-        "consumer insights",
-    "consumer insight",
-    "customer insights",
-    "customer insight",
-    "market research",
-    "insights analyst",
-    "research analyst",
-    "data analyst",
-    "business analyst",
-    "product analyst",
-    "user researcher",
-    "digital marketing",
-    "analyst"
+  "Data Analyst",
+      "Insights Analyst",
+      "Market Research Analyst",
+      "Consumer Insights",
+      "Research Analyst",
+      "Marketing Analyst",
+      "Product Analyst",
+      "Business Analyst",
+      "Customer Analytics",
+      "User Researcher"
     ],
     "ziprecruiter": [
     ],
     "google_jobs": [
-      "consumer insights",
-    "consumer insight",
-    "customer insights",
-    "customer insight",
-    "market research",
-    "insights analyst",
-    "research analyst",
-    "data analyst",
-    "business analyst",
-    "product analyst",
-    "user researcher",
-    "digital marketing",
+ "Data Analyst",
+      "Insights Analyst",
+      "Market Research Analyst",
+      "Consumer Insights",
+      "Research Analyst",
+      "Marketing Analyst",
+      "Product Analyst",
+      "Business Analyst",
+      "Customer Analytics",
+      "User Researcher"
     ],
     "hiring_cafe": [
-       "consumer insights",
-    "consumer insight",
-    "customer insights",
-    "customer insight",
-    "market research",
-    "insights analyst",
-    "research analyst",
-    "data analyst",
-    "business analyst",
-    "product analyst",
-    "user researcher",
-    "digital marketing",
+   
     ],
     "calcareers": [
       
@@ -131,15 +182,16 @@
   "locations": {
     "_comment": "LinkedIn needs a geoId (find via the guest endpoint; leave blank to let LinkedIn resolve the text). JobSpy-backed boards such as Indeed, Glassdoor, ZipRecruiter, and Google Jobs need a location + country (USA, Australia, Canada, GB...). HiringCafe currently uses its public US SEO route; locations.hiring_cafe is kept for compatibility. The map auto-fits to wherever the jobs are.",
     "linkedin": [
-  {
-    "name": "Sweden",
-    "location": "Sweden",
-    "geoId": ""
-  },
-  {
-    "name": "Denmark",
-    "location": "Denmark",
-    "geoId": ""  }
+   {
+        "name": "Sweden",
+        "location": "Sweden",
+        "geoId": ""
+      },
+      {
+        "name": "Denmark",
+        "location": "Denmark",
+        "geoId": ""
+      }
 ],
     "indeed": [
   {
@@ -162,7 +214,6 @@
   }
     ],
     "ziprecruiter": [
- 
     ],
     "google_jobs": [
  {
@@ -175,14 +226,6 @@
   }
     ],
     "hiring_cafe": [
-      {
-    "location": "Sweden",
-    "country": "Sweden"
-  },
-  {
-    "location": "Denmark",
-    "country": "Denmark"
-  }
     ],
     "_linkedin_partitions_comment": "Optional. Used by --linkedin-emit-matrix / --linkedin-backfill-partition for parallel backfill. Each state gets one matrix worker per search term. High-volume states can be day-sliced to work around LinkedIn's ~1000 result/query cap. Leave empty to use single-run backfill (--linkedin-backfill).",
     "linkedin_partitions": {
@@ -200,7 +243,6 @@
         "sweden",
     "stockholm",
     "malmö",
-    "malmo",
     "lund",
     "gothenburg",
     "göteborg",
@@ -238,6 +280,31 @@
   "exclude": []
   },
 
+  "priority_topics": {
+    "terms": [
+      [
+        "Survey Research",
+        "survey(s)?|questionnaire"
+      ],
+      [
+        "User & Consumer Insights",
+        "user research|consumer insight|customer insight"
+      ],
+      [
+        "Quantitative Data Analysis",
+        "quantitative|SPSS|Stata|\\bSQL\\b|statistical analysis"
+      ],
+      [
+        "Social Media Analytics",
+        "social media|content strategy|audience (behavior|engagement)"
+      ],
+      [
+        "Cross-cultural / Cross-team Collaboration",
+        "cross[- ]cultural|cross[- ]functional|international team"
+      ]
+    ]
+  },
+
   "role_categories": {
     "_comment": "Dashboard Role filter buckets, applied top-to-bottom to each title.",
   "terms": [
@@ -249,7 +316,35 @@
     ["Business Analytics", "business analyst|business analytics"],
     ["Product Analytics", "product analyst|product analytics"],
     ["Internship", "intern|internship|trainee"],
-    ["Graduate", "graduate|junior|entry.level"]
+    ["Graduate", "graduate|junior|entry.level"],
+     [
+        "User/UX Research",
+        "user research(er)?|ux research(er)?"
+      ],
+      [
+        "Market & Consumer Insights",
+        "market research|consumer insight|customer insight|brand insight"
+      ],
+      [
+        "Survey & Quantitative Research",
+        "survey|quantitative research|quantitative analyst"
+      ],
+      [
+        "Social Media & Digital Analytics",
+        "social media|digital marketing analyst|content strategist"
+      ],
+      [
+        "Data Analyst",
+        "data analyst|data & insights|people analytics"
+      ],
+      [
+        "Research Associate/Coordinator",
+        "research associate|research coordinator|research assistant"
+      ],
+      [
+        "General Research/Insights Analyst",
+        "research analyst|insights analyst|insight analyst"
+      ]
   ]
   },
 
