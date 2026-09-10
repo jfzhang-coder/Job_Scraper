@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-09 21:57 UTC",
+  "scraped_at": "2026-09-10 00:36 UTC",
   "total": 3,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "American Express",
@@ -58,24 +58,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "BALDER",
-      "title": "Business Analyst - Digital Solutions",
-      "location": "Stockholm, AB, SE",
-      "url": "https://se.indeed.com/viewjob?jk=3ab2de5eeaf1d9b6",
-      "direct_url": "https://karriar.balder.se/jobs/8354622-business-analyst-digital-solutions",
-      "company_url": "https://se.indeed.com/cmp/Balder-1",
-      "date_posted": "2026-09-09",
-      "description": "Vill du arbeta i gränslandet mellan verksamhet och teknik och vara med på Balders största digitala transformationsresa hittills?\n\n\nVi söker nu en kollega till vårt team inom digitalisering, IT och affärsutveckling där du får kombinera verksamhetsutveckling och kravställning med ditt genuina intresse för teknik och sätta dig in i såväl processer och användarbehov som system, integrationer, dataflöden och tekniska lösningsförslag.\n\n**Om rollen**\n\n\nSom Business Analyst – Digital Solutions omvandlar du verksamhetens behov och förbättringsmöjligheter till genomförbara digitala lösningar. Du driver arbetet från behovsanalys och utvärdering av lösningsalternativ till kravställning, koordinering, test och uppföljning.\n\n\nDu arbetar brett med initiativ inom exempelvis verksamhetssystem, integrationer, masterdata, automatisering, dataplattformar och dataanalys. I nära samarbete med verksamheten och våra tekniska team säkerställer du att vi löser rätt problem, att kraven är tydliga och att lösningarna skapar avsedd verksamhetsnytta.\n\n**Dina huvudsakliga ansvarsområden:**\n\n* Proaktivt identifiera problem och förbättringsmöjligheter i verksamheten, formulera möjliga digitala lösningar och driva arbetet från idé till genomförande.\n* Kartlägga och analysera verksamhetsprocesser, informationsflöden, systemstöd och beroenden för att förstå både verksamhetsbehovet och de tekniska förutsättningarna.\n* Omsätta verksamhetens behov till tydliga funktionella och tekniskt begripliga krav som lösningsarkitekter och utvecklingsteam kan arbeta vidare med.\n* Ta fram konkreta kravunderlag såsom processmodeller, informationsflöden, user stories, datakrav och acceptanskriterier.\n* Utvärdera och utmana både verksamhetens önskemål och tekniska lösningsförslag för att säkerställa att vi löser rätt problem på ett hållbart och ändamålsenligt sätt.\n* Leda workshops, samla rätt kompetenser och driva dialogen mellan verksamhet, produktägare, projektledare, lösningsarkitekter och utvecklingsteam.\n* Praktiskt validera lösningar och data genom testning, analys av dataflöden och kontroll mot definierade krav och acceptanskriterier.\n* Följa initiativen genom hela leveransen och säkerställa att resultatet skapar avsedd verksamhetsnytta, inte enbart att den tekniska lösningen är levererad.\n* Vid behov arbeta praktiskt med dataanalys, datavalidering och vidareutveckling av rapporter i Power BI.\n**Vi söker dig som har**\n\n* Flerårig erfarenhet av verksamhetsanalys och kravställning samt av att driva digitala initiativ från behov till implementerad lösning.\n* Stark förståelse för verksamhetsprocesser och erfarenhet av att omsätta komplexa behov till tydliga och genomförbara krav.\n* Praktisk teknisk erfarenhet och förståelse för system, integrationer, dataflöden och datamodeller.\n* Praktisk erfarenhet av SQL, datatransformation eller analys av datastrukturer i olika system.\n* Erfarenhet av att utvärdera tekniska lösningsförslag och arbeta nära arkitekter och utvecklingsteam.\n* Erfarenhet av att leda workshops samt validera och testa digitala lösningar tillsammans med verksamheten.\n\n\nDet är meriterande om du har varit delaktig i större förändrings\\- eller implementationsprojekt, exempelvis inom ERP, integrationer, datamigrering, masterdata, automatisering eller dataplattformar. Erfarenhet av Power BI, API eller verksamheter med komplexa processer och systemlandskap ser vi som ett plus.\n\n**Vem är du?**\n\n\nFör att lyckas i rollen tror vi att du är nyfiken och har lätt för att sätta dig in i nya verksamheter, processer och tekniska frågeställningar. Du ser samband, identifierar vad som faktiskt skapar värde och vågar utmana både behov och lösningar när det behövs. Samtidigt trivs du med variation och kan växla mellan olika initiativ utan att tappa struktur eller framdrift. Du tar gärna egna initiativ, samarbetar prestigelöst med olika kompetenser och är inte rädd för att själv hugga tag i det som behövs för att komma framåt.\n\n**Låter detta som en tjänst för dig?**\n\n\nKul! Vi arbetar med löpande urval så skicka in din ansökan redan idag. Tjänsten är en tillsvidareanställning med inledande provanställning. Tjänsten är placerad på vårt huvudkontor i Göteborg, med arbete på plats fem dagar i veckan.\n\n\nI denna process ber vi dig inte skicka med personligt brev, utan vill i stället att du besvarar våra urvalsfrågor. Vi använder oss av rekryteringstester för att hjälpa oss göra ett så bra och objektivt urval som möjligt. Som en del av rekryteringsprocessen kommer även ett arbetsprov att tillämpas.\n\n\nHar du frågor om tjänsten är du välkommen att kontakta rekryterare Gabriella Hagström, gabriella.hagstrom@balder.se.\n\n\nHjärtligt välkommen till oss och en bransch som är full av möjligheter!\n\n\nAvdelning\nDITA (digitalisering, IT samt affärsutveckling)\nRoll\nVerksamhetsanalytiker\nPlatser\nGöteborg, Stockholm\n**Lediga tjänster**\n===================\n\n\n* Produktägare – Digitala kundkanaler\nDITA (digitalisering, IT samt affärsutveckling) · Göteborg\n* Teknisk Produktägare – Operational Planning\nDITA (digitalisering, IT samt affärsutveckling) · Göteborg, Stockholm\n* Produktägare – Master Data\nDITA (digitalisering, IT samt affärsutveckling) · Göteborg, Stockholm",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "gabriella.hagstrom@balder.se",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
