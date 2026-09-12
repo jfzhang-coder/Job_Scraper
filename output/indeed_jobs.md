@@ -1,6 +1,10 @@
 # 🟦 Indeed — Data & Insights Roles
-*Last updated: 2026-09-12 06:31 UTC*
+*Last updated: 2026-09-12 17:53 UTC*
 
-**0 new role(s)** since last run · 5 total in last 24h
+**1 new role(s)** since last run · 1 total in last 24h
 
-No new roles since the last run.
+### [Junior Technology Business Analyst](https://se.indeed.com/viewjob?jk=6b8cd5762cbc13b3) — Nordic Investin Group Aktiebolag
+- 📍 **Location:** Linköping, E, SE
+- **Work mode:** On-site
+- **Job type:** fulltime
+- 🕒 **Posted:** 2026-09-12
