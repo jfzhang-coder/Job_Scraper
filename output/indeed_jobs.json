@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-12 01:33 UTC",
+  "scraped_at": "2026-09-12 06:31 UTC",
   "total": 5,
-  "new_count": 1,
+  "new_count": 0,
   "jobs": [
     {
       "company": "Sveriges television SVT",
@@ -94,24 +94,5 @@
       "ats": "Indeed"
     }
   ],
-  "new_jobs": [
-    {
-      "company": "Cognizant",
-      "title": "Technical Business Analyst",
-      "location": "Stockholm, AB, SE",
-      "url": "https://se.indeed.com/viewjob?jk=8af51763da458df3",
-      "direct_url": "https://arbetsformedlingen.se/platsbanken/annonser/31468539",
-      "company_url": "https://se.indeed.com/cmp/Cognizant-f7abe767",
-      "date_posted": "2026-09-11",
-      "description": "What makes Cognizant a unique place to work? The combination of rapid growth and an international and innovative environment! This is creating a lot of opportunities for people like YOU — people with an entrepreneurial spirit who want to make a difference in this world.\n  \nAt Cognizant, together with your colleagues from all around the world, you will collaborate on creating solutions for the world's leading companies and help them become more flexible, more innovative and successful. And this is your chance to be part of the success story: we are looking for an Informatica Architect to join our team in Sweden.\n  \n  \n\nAbout the team\n  \nCognizant Sweden boasts a robust team of professionals spread across various cities. Our local team includes experts in AI, data analytics, cloud services, and software development, ensuring we provide top\\-notch, localized support to our clients. The team is led by a seasoned professional, who brings extensive experience in cloud, AI and analytics and building high performing teams. Learn how Cognizant helps clients lead with digital at www.cognizant.com or follow us Cognizant.\n  \nCognizant collaborates with all major hyperscale’s and relevant software vendors in the data and AI space. This includes partnerships with industry leaders such as AWS, Microsoft, Google, Snowflake, and Databricks. Our comprehensive approach ensures that we leverage the best tools and technologies to deliver scalable, secure, and efficient solutions. Additionally, we are supported locally by our dedicated Centres of Excellence, which operate both nearshore and offshore. These centres provide specialized expertise and resources, ensuring that we can meet the unique needs of our clients and drive innovation in AI and data cost effectively.\n  \n  \n\nAbout the role\n  \n3\\+ years of hands\\-on experience working with requirements and design to deliver complex data solutions.\n  \nPreferably background from Banking, with understanding of bank data and data delivery in a regulated environment\n  \nVery good communication and presentation skills (both written and oral) with proven ability to collaborate in cross\\-functional teams and drive discussions with architects and engineers to jointly design solutions and solve problems\n  \nHas experience from working with data related topics such as data sourcing, transformation rules, data quality rules, data privacy considerations and data delivery agreements.\n  \nCan take on and independently drive their own subset of activities\n  \nExperience from testing and quality assuring data deliveries\n  \nQuick to grasp new concepts, fast learning curve will be needed\n  \nStructured work approach\n  \n  \n\nTechnical Proficiencies\n  \n**Languages:** SQL\n  \n**Tools \\& Platforms:** AbInitio metadata hub or other Data Catalogue tool\n  \nExperience from data warehousing or analytics tools is meriting\n  \n  \n\nWhat you can expect\n  \nBecome part of a ‘flag ship’ success story \\- We go through enormous growth!\n  \nOrganization driven by technology – We have a tremendous technology backbone\n  \nEnvironment where you can make your own ideas reality\n  \nDrive your own career\n  \nMarket conforms benefits\n  \n  \n\nThe Cognizant community\n  \nWe are a high caliber team who appreciate and support one another. Our people uphold an energetic, collaborative and inclusive workplace where everyone can thrive.\n  \nCognizant is a global community with more than 300,000\\+ associates around the world.\n  \nWe don’t just dream of a better way – we make it happen.\n  \nWe take care of our people, clients, company, communities and climate by doing what’s right.\n  \nWe foster an innovative environment where you can build the career path that’s right for you.",
-      "salary": "",
-      "salary_source": "",
-      "salary_currency": "",
-      "job_type": "fulltime",
-      "is_remote": false,
-      "work_arrangement": "On-site",
-      "emails": "",
-      "ats": "Indeed"
-    }
-  ]
+  "new_jobs": []
 }
